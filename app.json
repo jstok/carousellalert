@@ -4,7 +4,7 @@
   "repository": "https://github.com/2gavy/carousellalert",
   "logo": "https://storage.googleapis.com/carousell-wordpress-files/1/2019/09/Carousell-logo-square.png",
   "keywords": ["node", "puppeteer", "static", "cron"],
-  "stack": "heroku-16",
+  "stack": "heroku-20",
   "buildpacks": [
     {
       "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
