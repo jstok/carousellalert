@@ -37,6 +37,11 @@
       "value": "sellername1, sellername2",
       "required": false
     },
+    "CATAGORY_CODE": {
+       "description": "Specify the catagory of the item"
+       "value": "0"
+       "required": true
+    },
     "SLEEP_TIME": {
       "description": "Refreshes every 5 minute. Change 5 to adjust the duration of poll. It MUST be in this format. Please poll responsibly as we do not want to flood Carousell servers!",
       "value": "*/5 * * * *"
