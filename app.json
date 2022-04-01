@@ -37,8 +37,8 @@
       "value": "sellername1, sellername2",
       "required": false
     },
-    "CATAGORY_CODE": {
-       "description": "Specify the catagory of the item"
+    "CATEGORY_CODE": {
+       "description": "Specify the category of the item"
        "value": "0"
        "required": true
     },
