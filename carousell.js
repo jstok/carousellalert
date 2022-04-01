@@ -12,7 +12,7 @@ const job = new CronJob({
 });
 
 async function loadPage(){
-  var link = "https://www.carousell.sg/categories/" + encodeURIComponent(process.env.CATEGORY_CODE) + "addRecent=false&canChangeKeyword=false&includeSuggestions=false&search=" + encodeURIComponent(process.env.ITEM) + "&sort_by=3"
+  var link = "https://www.carousell.sg/categories/" + encodeURIComponent(process.env.CATEGORY_CODE) + "?addRecent=false&canChangeKeyword=false&includeSuggestions=false&search=" + encodeURIComponent(process.env.ITEM) + "&sort_by=3"
   var page = await context.newPage();
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3419.0 Safari/537.36"
